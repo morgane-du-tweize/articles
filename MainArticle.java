@@ -11,7 +11,7 @@ public class MainArticle {
 		gazette.addRedacteur(redacteur1);
 		
 		// Article Rediger(String titre, String sujet, String contenu)
-		redacteur1.Rediger("Poussin", "enlevement du petit fils du ministre", 
+		Article article1 =  redacteur1.Rediger("Poussin", "enlevement du petit fils du ministre", 
 				"Proin malesuada orci elementum magna mattis, at molestie ex eleifend."
 				+ "Cras finibus dui eu nisl rutrum condimentum. Integer aliquet, nisl vitae placerat tincidunt,"
 				+ "nunc tellus semper elit, non iaculis justo magna et augue."
@@ -24,6 +24,9 @@ public class MainArticle {
 				+ " Sed sit amet egestas lorem, vitae ornare libero. Sed malesuada eu augue sed eleifend. "
 				+ "Proin feugiat rutrum semper. Etiam vel blandit ante. "
 				+ "Aenean quis diam in nisi pulvinar tempor a semper nisl. ");
+		
+		;
+		System.out.println(article1.toString());
 		
 		// les articles des rédacteurs doivent être publiés dans le journal
 

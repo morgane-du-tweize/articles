@@ -8,6 +8,10 @@ public class Article {
 	protected String sujet ;
 	protected String contenu ;
 	
+	@Override
+	public String toString() {
+		return "Article [date=" + date + ", titre=" + titre + ", sujet=" + sujet + ", contenu=" + contenu + "]";
+	}
 	public Article(Date date, String titre, String sujet, String contenu) {
 		setDate(date);
 		setTitre(titre);

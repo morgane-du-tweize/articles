@@ -40,9 +40,7 @@ public class Journal {
 			for (Article article: redacteur.getListeArticles()) {
 				articles.add(article);
 			}
-			
 		}
 		return articles;
 	}
-
 }

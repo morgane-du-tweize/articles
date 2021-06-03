@@ -44,6 +44,11 @@ public class Redacteur {
 		return newArticle ;
 	}
 
+	@Override
+	public String toString() {
+		return "Redacteur [nom=" + nom + ", prenom=" + prenom + ", listeArticles=" + listeArticles.toString() + "]";
+	}
+
 	public ArrayList<Article> getListeArticles() {
 		return listeArticles;
 	}
